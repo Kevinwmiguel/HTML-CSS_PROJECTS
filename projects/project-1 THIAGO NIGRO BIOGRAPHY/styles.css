@@ -1,0 +1,175 @@
+/*SUMMARY TO EDIT*/
+/*tags*/
+/*class*/
+/*ids*/
+/*footer*/
+/*midia*/
+
+
+
+/*TAGS*/
+* {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    font-style: italic;
+    padding-inline: 20px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    background-color: #80808031;
+}
+
+figurecaption {
+    padding: 35px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+/*CLASS*/
+.img {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.borda {
+    border: 250px solid #80808031;
+}
+
+/*botao*/
+.btn {
+    background-color: #454545;
+    margin: 10px 20px 30px 30px;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.btn:hover {
+    background-color: rgb(0, 128, 0);
+    transition: 1s;
+}
+
+.dash {
+    text-align: center;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 5px dashed #808080;
+    border-bottom: 5px dashed #808080;
+}
+
+.trade {
+    display: flex;
+}
+
+.trd1 {
+    width: 40%;
+
+}
+
+.trd2 {
+    width: 20%;
+}
+
+.trd3 {
+    width: 40%;
+}
+
+
+.frases-do-autor {
+    width: 30%;
+    padding-left: 25px;
+}
+
+.perguntas {
+    width: 30%;
+}
+
+.gamer {
+    width: 45%;
+}
+
+.meio {
+    display: flex;
+}
+
+
+
+/*IDS'*/
+#amazon {
+    float: right;
+    overflow: -moz-hidden-unscrollable;
+}
+
+#thiago {
+    border-radius: 50cm;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.912);
+}
+
+#trade {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.912);
+}
+
+#idiota {
+    border-radius: 10px;
+    height: 75%;
+
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.912);
+}
+
+#pgt {
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.912);
+}
+
+#livro {
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin: 10px;
+}
+
+#livro2 {
+    height: 350px;
+    width: 320px;
+    float: right;
+    margin: 10px;
+}
+
+/*footer*/
+
+footer {
+    border: 30px solid #c6c6c6fb;
+    padding: 30px;
+    margin: 20px solid #c6c6c6fb;
+    background-color: #c6c6c6fb;
+}
+
+/*midia*/
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
