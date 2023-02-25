@@ -1,0 +1,171 @@
+/*header*/
+.body-container {
+    width: auto;
+    height: 940px;
+}
+
+.header-container {
+    height: 10%;
+    width: auto;
+
+}
+
+.header-list {
+    display: inline-flex;
+    font-size: 20px;
+    float: right;
+}
+
+.header-list li {
+    padding: 10px 15px 10px;
+    box-sizing: border-box;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/*main*/
+
+.main {
+    height: 500px;
+    width: auto;
+}
+
+.main-container {
+    height: 80%;
+    width: auto;
+    text-align: center;
+}
+
+.main-content {
+    padding: 200px;
+}
+
+.space {
+    height: 100px;
+    width: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*img*/
+.img {
+    height: 130px;
+    margin-bottom: 35px;
+}
+
+img {
+    width: 350px;
+    height: 120px;
+}
+
+/*search-bar*/
+.search-bar {
+    border: 1px solid #aaa;
+    margin: 15px;
+    border-radius: 10ch;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    height: 25px;
+}
+
+/*btn*/
+
+.fa-magnifying-glass {
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.fa-keyboard,
+.fa-microphone {
+    float: right;
+    box-sizing: border-box;
+    margin-right: 7px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+input {
+    border: none;
+    width: 415px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 30px;
+}
+
+.search_google {
+    padding: 15px;
+    border: 1px solid transparent;
+    background-color: #aaaaaa56;
+    border-radius: 1ch;
+    color: #797979;
+    margin-right: 20px;
+}
+
+.lucky {
+    border: 1px solid transparent;
+    padding: 15px;
+    border-radius: 1ch;
+    background-color: #aaaaaa56;
+    color: #797979;
+    margin-left: 20px;
+}
+
+.search_google:hover {
+    border-color: #000000;
+    color: #333;
+}
+
+.lucky:hover {
+    border-color: #000000;
+    color: #333;
+}
+
+
+
+/*FOOTER*/
+
+.footer-container {
+    width: auto;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+.footer-container li {
+    padding: 10px 15px 10px;
+    box-sizing: border-box;
+}
+
+.footer-left {
+    margin-top: 60px;
+    display: inline-flex;
+    float: left;
+    box-sizing: border-box;
+    width: auto;
+    font-size: 20px;
+}
+
+.footer-right {
+    margin-top: 60px;
+    display: inline-flex;
+    width: auto;
+    float: right;
+    font-size: 20px;
+    box-sizing: border-box;
+}
