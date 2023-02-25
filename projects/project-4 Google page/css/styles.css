@@ -141,13 +141,43 @@ input {
 
 /*FOOTER*/
 
-.footer-container {
-    width: auto;
-    height: 80px;
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border-top: 1px solid #aaa;
+    background-color: #aaaaaa2b;
+}
+
+.footer-left {
+    display: inline-flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 10px 15px 10px;
     box-sizing: border-box;
 }
 
-.footer-container li {
+.footer-right {
+    position: absolute;
+    right: 0;
+    display: inline-flex;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 10px 15px 10px;
+    box-sizing: border-box;
+}
+
+.footer-right li {
+    padding: 5px 15px 5px;
+}
+
+.footer-left li {
+    padding: 5px 15px 5px;
+}
+
+/*.footer-container li {
     padding: 10px 15px 10px;
     box-sizing: border-box;
 }
@@ -169,3 +199,4 @@ input {
     font-size: 20px;
     box-sizing: border-box;
 }
+*/
