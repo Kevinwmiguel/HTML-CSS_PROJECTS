@@ -187,26 +187,26 @@ form input[type=submit]:hover {
     height: 200px;
 }
 
-#section-candies1,
-#section-candies2,
-#section-candies3 {
+#section-goodies1,
+#section-goodies2,
+#section-goodies3 {
     padding-right: 50px;
     margin-bottom: 50px;
 }
 
-.candies1-img {
+.goodies1-img {
     width: 18.8%;
     margin-left: .5%;
     margin-right: .5%;
 }
 
-.candies2-img {
+.goodies2-img {
     width: 32.3%;
     margin-left: .5%;
     margin-right: .5%;
 }
 
-.candies3-img {
+.goodies3-img {
     width: 23.9%;
     margin-left: .5%;
     margin-right: .5%;
