@@ -152,11 +152,15 @@
 /*Sign up*/
 
 #register-container {
+
+    width: 352px;
     margin-top: 10px;
-    padding: 25px;
+    height: 75px;
 }
 
+
 #register-container p {
+    position: relative;
     font-size: 14px;
     color: #262626;
 }
@@ -165,12 +169,14 @@
     color: #4A95F6;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 
 /*Get App*/
 #get-app-container {
     text-align: center;
     width: 350px;
+    display: flex;
 }
 
 #get-app-container p {
@@ -202,7 +208,7 @@ footer #footer-links {
 
 footer #footer-links li {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-right: 10px;
 }
 
@@ -218,4 +224,10 @@ footer #footer-links li {
     text-transform: uppercase;
     color: #8e8e8e;
     margin-top: 10px;
+}
+
+footer .last a,
+p {
+    margin-left: 200px;
+    display: inline-block;
 }
