@@ -36,7 +36,7 @@ html {
     background-color: #80808031;
 }
 
-figurecaption {
+figcaption {
     padding: 35px;
     display: block;
     text-align: center;
@@ -165,6 +165,7 @@ footer {
     padding: 30px;
     margin: 20px solid #c6c6c6fb;
     background-color: #c6c6c6fb;
+    text-align: center;
 }
 
 /*midia*/
