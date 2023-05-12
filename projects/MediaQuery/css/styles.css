@@ -1,0 +1,74 @@
+/*1 - Midia Query - Mobile*/
+h1{
+    color: rgb(255, 0, 0);
+}
+
+/*2 - Sintaxe*/
+@media screen and (max-width: 500px){
+    /*Max with - Tela menores que alguma resolução*/
+    h1{
+        color: rgba(0, 0, 255, 0.971)
+    }
+}
+
+/*3 - Outos Modos*/
+/*screen , print, speech, all*/
+
+@media print and (max-width: 600px){
+    h1{
+        color: rgb(0, 128, 0);
+    }
+    
+}
+
+/*4 - Todos os modos*/
+
+@media (max-width: 700px) {
+    h2{
+        color: rgb(128, 0, 128);
+    }
+}
+
+/*5 Mobile First*/
+@media (min-width: 200px){
+    /*Min With - Telam maiores que essa resolução*/
+    h2{color: rgb(0, 128, 128);}
+}
+
+/*6 And na media Query*/
+@media (min-width: 300px) and (max-width: 400px){
+    h3{
+        font-size: 3em;
+    }
+} 
+
+/*7 - Orientation*/
+
+@media(Orientation: landscape){
+    h3{
+        color: rgb(165, 42, 42);
+    }
+}
+
+/*8 - OR na media Query*/
+
+@media(max-width: 200), (orientation: landscape){
+    h3 {
+        font-size: 4em;
+    }
+}
+
+/*9 - Cuidaod ao aplicar o MQ*/
+
+@media (min-width: 600px){
+    h4{
+        color: rgb(255, 0, 0);  
+    }
+}
+
+/*10 - Breakpoints*/
+h5{
+    color: rgb(0, 255, 255);
+    font-size: 2em;
+}
+
