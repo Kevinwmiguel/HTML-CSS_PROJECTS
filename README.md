@@ -7,4 +7,4 @@ HTML e CSS: O Início (incluindo 5 Projetos)
 
 HTML5 e CSS3: Técnicas Avançadas (Com Flexbox e 5 Projetos)
 
-![image](https://github.com/Kevinwmiguel/HTML-CSS_PROJECTS/assets/59360014/cffe65e9-063b-450f-909c-72c991e346ac)
+![image](https://github.com/Kevinwmiguel/HTML-CSS_PROJECTS/assets/59360014/92a73442-f58f-4298-8760-a6ce6e0be80b)
